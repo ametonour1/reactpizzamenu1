@@ -1,0 +1,109 @@
+.navbar{
+    background-color: rgb(20, 20, 24);
+    height: 12vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.5fr auto 1fr;
+    
+}
+.logo {
+    display: grid;
+    height: 100%;
+    
+
+}
+.leftside {
+    height: 80px;
+    
+}
+.rightside{
+    display: flex;
+    justify-self:right;
+    margin-top: 28px;
+    gap: 50px;
+    height: 80px;
+    margin-right: 20px;
+    
+
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.link:hover {
+    background-image: linear-gradient(90deg, rgb(123, 255, 106),rgb(255, 255, 255),rgb(255, 139, 139));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.hamburger {
+    border: none;
+    background-color:transparent;
+    color: #fff;  
+    height: 50px; 
+    display: none; 
+}
+.hiddenlinks .link {
+    color: #fff;
+    background-color: rgb(12, 12, 12);
+    display: none;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width:800px) {
+    .link {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hiddenlinks .link {
+        display: block;
+        height: 100px;
+    }
+    #open .hiddenlinks .link {
+        display: block;
+        height: 100px;
+    
+    }
+    #open  {
+        transform:translateX(0px);
+        transition: 0.5s;
+    }
+    #closed {
+        transform: translateX(-800px);
+        transition: 0.5s;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "left right"
+        "hamburger hamburger";
+        height: 110px;
+       
+    }
+    .hamburgermenu {
+        background-color:  rgb(12, 12, 12);
+        width: 100%;
+        z-index: 99;
+        height: auto;
+        grid-area: hamburger;
+        
+       
+        
+    }
+    .leftside {
+        grid-area: left;
+       margin-top: 12px;
+    }
+    .rightside {
+        grid-area: right;
+        margin-top: 30px;
+    }
+   
+}
