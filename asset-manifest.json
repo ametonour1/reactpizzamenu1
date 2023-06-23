@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactpizzamenu/static/css/main.afceca13.css",
+    "main.js": "/reactpizzamenu/static/js/main.eef9033c.js",
+    "static/js/787.44083197.chunk.js": "/reactpizzamenu/static/js/787.44083197.chunk.js",
+    "static/media/pesto.jpg": "/reactpizzamenu/static/media/pesto.25723a8b32a191c73aae.jpg",
+    "static/media/pizzatopphoto.webp": "/reactpizzamenu/static/media/pizzatopphoto.a54705ecf85b9bbb4261.webp",
+    "static/media/pizzaoven.webp": "/reactpizzamenu/static/media/pizzaoven.6745f95a1230e3cf03b6.webp",
+    "static/media/margarita.jpg": "/reactpizzamenu/static/media/margarita.04118275917a0446339e.jpg",
+    "static/media/alfredo.jpg": "/reactpizzamenu/static/media/alfredo.e162e9baba3b180918c2.jpg",
+    "static/media/pizzachef.png": "/reactpizzamenu/static/media/pizzachef.ab2fe816ac67d084081d.png",
+    "static/media/prosciutto.jpg": "/reactpizzamenu/static/media/prosciutto.f0bdefd031679307382c.jpg",
+    "static/media/Pepperoni.jpg": "/reactpizzamenu/static/media/Pepperoni.2eb605639aca8f3194f2.jpg",
+    "static/media/hawaiian.jpg": "/reactpizzamenu/static/media/hawaiian.8cc8436e033921a8f30f.jpg",
+    "static/media/pizza.webp": "/reactpizzamenu/static/media/pizza.971410626ac555bf2e06.webp",
+    "index.html": "/reactpizzamenu/index.html",
+    "main.afceca13.css.map": "/reactpizzamenu/static/css/main.afceca13.css.map",
+    "main.eef9033c.js.map": "/reactpizzamenu/static/js/main.eef9033c.js.map",
+    "787.44083197.chunk.js.map": "/reactpizzamenu/static/js/787.44083197.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afceca13.css",
+    "static/js/main.eef9033c.js"
+  ]
+}
